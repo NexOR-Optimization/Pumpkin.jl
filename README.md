@@ -52,7 +52,14 @@ With plain MathOptInterface:
 import MathOptInterface as MOI
 import Pumpkin
 
+<<<<<<< HEAD
 model = MOI.instantiate(Pumpkin.Optimizer)
+=======
+model = MOI.Utilities.CachingOptimizer(
+    Pumpkin.Model{Int}(),
+    Pumpkin.Optimizer(),
+)
+>>>>>>> 94eb2a8 (Initial commit)
 ```
 
 ## How it works
