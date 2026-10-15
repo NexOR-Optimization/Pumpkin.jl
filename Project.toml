@@ -1,0 +1,15 @@
+name = "Pumpkin"
+uuid = "240191da-4928-4dd9-8a24-44eb9101105c"
+version = "0.1.0"
+authors = ["Benoît Legat <benoit.legat@gmail.com>"]
+
+[deps]
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+MiniZinc = "a7f392d2-6c35-496e-b8cc-0974fbfcbf91"
+Pumpkin_jll = "3184b9bd-5ec7-557e-a060-8836840e0ad5"
+
+[compat]
+MathOptInterface = "1"
+MiniZinc = "0.3.15"
+Pumpkin_jll = "0.5"
+julia = "1.10"
